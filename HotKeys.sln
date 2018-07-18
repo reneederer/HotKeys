@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "HotKeys", "HotKeys\HotKeys.fsproj", "{D8E2051A-7E94-4DE6-9EA7-3DDD9EC559CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8E2051A-7E94-4DE6-9EA7-3DDD9EC559CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8E2051A-7E94-4DE6-9EA7-3DDD9EC559CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8E2051A-7E94-4DE6-9EA7-3DDD9EC559CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8E2051A-7E94-4DE6-9EA7-3DDD9EC559CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {06D217C0-957C-455B-8425-7C4738629BD5}
+	EndGlobalSection
+EndGlobal

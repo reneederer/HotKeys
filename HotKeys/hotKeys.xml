@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<config>
+  <remaps>
+    <customModifier>
+      <keys>
+        <key>capslock</key>
+        <key>SC028</key>
+      </keys>
+      <onReleases>
+        <onRelease>
+          <pressedDefaultModifiers></pressedDefaultModifiers>
+          <input>{escape}</input>
+        </onRelease>
+        <onRelease>
+          <pressedDefaultModifiers>
+            <pressedDefaultModifier>+</pressedDefaultModifier>
+            <pressedDefaultModifier>!</pressedDefaultModifier>
+          </pressedDefaultModifiers>
+          <input>control pressed!</input>
+        </onRelease>
+      </onReleases>
+
+
+      <onPresses>
+        <onPress key="j">
+          <input>{down}</input>
+        </onPress>
+        <onPress key="k">
+          <input>{up}</input>
+        </onPress>
+        <onPress key="h">
+          <input>{left}</input>
+        </onPress>
+        <onPress key="l">
+          <input>{right}</input>
+        </onPress>
+        <onPress key="o">
+          <input>{end}{enter}</input>
+        </onPress>
+        <onPress key="p">
+          <input>{backspace}</input>
+        </onPress>
+        <onPress key="u">
+          <input>{pgUp}</input>
+        </onPress>
+        <onPress key="d">
+          <input>{pgDn}</input>
+        </onPress>
+        <onPress key="m">
+          <input>{enter}</input>
+        </onPress>
+      </onPresses>
+    </customModifier>
+
+    <customModifier>
+      <keys>
+        <key>tab</key>
+      </keys>
+      <onReleases>
+        <onRelease>
+          <pressedDefaultModifiers></pressedDefaultModifiers>
+          <input>{tab}</input>
+        </onRelease>
+        <onRelease>
+          <pressedDefaultModifiers>
+            <pressedDefaultModifier>!</pressedDefaultModifier>
+          </pressedDefaultModifiers>
+          <input>{alt down}{tab}</input>
+        </onRelease>
+      </onReleases>
+      <onPresses>
+        <onPress key="j">
+          <input>+{down}</input>
+        </onPress>
+        <onPress key="k">
+          <input>+{up}</input>
+        </onPress>
+        <onPress key="h">
+          <input>+{left}</input>
+        </onPress>
+        <onPress key="l">
+          <input>+{right}</input>
+        </onPress>
+      </onPresses>
+    </customModifier>
+  </remaps>
+</config>

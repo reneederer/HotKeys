@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hotkeys>
+	<hotkey>
+		<cause>
+			<modifier>{SC028}</modifier>
+			<key>a</key>
+		</cause>
+		<effect>
+			<input>{home}</input>
+		</effect>
+	</hotkey>
+	<hotkey>
+		<cause>
+			<key>SC028 up</key>
+		</cause>
+		<effect>
+			<input>{SC028}</input>
+		</effect>
+	</hotkey>
+</hotkeys>
+
+capslock & j::
+	sendInput,{blind}{down}
+	returns
